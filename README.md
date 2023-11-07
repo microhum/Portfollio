@@ -1,9 +1,4 @@
 ## Project Overview
 
-Portfolio
+This Is My Portfolio
 
-## Tech
-
-| Tech                                      |
-| ----------------------------------------- |
-| [Vite + React](https://vitejs.dev/guide/) |

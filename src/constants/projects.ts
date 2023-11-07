@@ -75,7 +75,7 @@ export const projects: Project[] = [
     description: "Tired of Stroke?. Try MyStroke.",
     image: MyStrokeUrl,
     url: "https://mystroke-game.onrender.com/",
-    githubUrl: "https://github.com/adrianpiatek99/twitter-clone-nextjs",
+    githubUrl: "https://github.com/MyStroke",
     techs: [
       reactnativeTech,
       unityTech,
@@ -112,7 +112,7 @@ export const projects: Project[] = [
     description: "My Portfolio",
     image: CurrentPortfolioUrl,
     url: "",
-    githubUrl: "",
+    githubUrl: "https://github.com/microhum/Portfollio",
     techs: [reactTech, typeScriptTech]
   }
 ];
