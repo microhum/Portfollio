@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply bg-background1 text-color1 text-m font-primary;
+  @apply bg-emoji-pattern bg-opacity-20 text-color1 text-m font-primary;
 }
 
 button {
@@ -12,6 +12,11 @@ button {
 
 a {
   @apply outline-none;
+}
+
+.pattern-diagonal-stripes {
+  background-image: linear-gradient(45deg, #555 25%, transparent 25%, transparent 50%, #555 50%, #555 75%, transparent 75%, transparent);
+  background-size: 20px 20px;
 }
 
 *::-webkit-scrollbar {

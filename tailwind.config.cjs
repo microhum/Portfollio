@@ -16,7 +16,7 @@ module.exports = {
       color1: "#edebe8",
       color2: "#999999",
       gray: "#cccccc",
-      primary: "#4615b2",
+      primary: "#FF5733",
       border1: "#333333"
     },
     fontSize: {
@@ -44,9 +44,7 @@ module.exports = {
         5: "5"
       },
       backgroundImage: {
-        "gradient-radial":
-          "radial-gradient(circle at center, #cccccc35 1px, transparent 0), radial-gradient(circle at center, #cccccc35 1px, transparent 0)",
-        "linear-gradient": "linear-gradient(0deg, #060606 0%, transparent 65%)"
+        'emoji-pattern': "linear-gradient(rgba(28, 30, 43, 0.8), rgba(28, 30, 43, 0.8)), url('assets/background/emoji_pattern.png')",
       }
     }
   },
