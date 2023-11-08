@@ -44,7 +44,7 @@ module.exports = {
         5: "5"
       },
       backgroundImage: {
-        'emoji-pattern': "linear-gradient(rgba(28, 30, 43, 0.8), rgba(28, 30, 43, 0.8)), url('assets/background/emoji_pattern.png')",
+        'emoji-pattern': "linear-gradient(rgba(28, 30, 43, 0.9), rgba(28, 30, 43, 0.9)), url('assets/background/emoji_pattern.png')",
       }
     }
   },
