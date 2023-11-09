@@ -17,6 +17,9 @@ export const DefaultAboutMeSection = () => {
             "My journey has started since 2021 (around 2 years ago) \n Starting programming so lately which mean more effort and attention giving into it !"
           }
         </Typography>
+        <Typography tag="p" weight="semibold" className="pl-8 text-color1 text-l sm:text-xl">
+          {"Don't watch the clock; do what it does. Keep going."}
+        </Typography>
         <div className="flex gap-[12px]">
           <Link to={GITHUB_URL} target="_blank" rel="noopener noreferrer" tabIndex={-1}>
             <IconButton title="GitHub" size="large">
