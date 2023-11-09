@@ -20,20 +20,20 @@ module.exports = {
       border1: "#333333"
     },
     fontSize: {
-      xs: ["12px", "15px"],
-      s: ["14px", "17px"],
-      m: ["16px", "20px"],
-      l: ["18px", "22px"],
-      xl: ["20px", "24px"],
-      "2xl": ["24px", "28px"],
-      "3xl": ["29px", "35px"],
-      "4xl": ["35px", "43px"],
-      "5xl": ["42px", "49px"],
-      "6xl": ["49px", "56px"],
-      "7xl": ["64px", "71px"]
+      xs: ["10px", "13px"],
+      s: ["12px", "15px"],
+      m: ["14px", "18px"],
+      l: ["16px", "20px"],
+      xl: ["18px", "22px"],
+      "2xl": ["22px", "26px"],
+      "3xl": ["27px", "33px"],
+      "4xl": ["33px", "41px"],
+      "5xl": ["40px", "47px"],
+      "6xl": ["47px", "54px"],
+      "7xl": ["62px", "69px"]
     },
     fontFamily: {
-      primary: ["-apple-system", "BlinkMacSystemFont", "Inter", "Helvetica", "Arial", "sans-serif"]
+      primary: ["LineFont"]
     },
     extend: {
       zIndex: {

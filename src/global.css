@@ -78,3 +78,9 @@ span.ripple {
     transition: none;
   }
 }
+
+@font-face {
+  font-family: 'LineFont'; /* Give your font a name */
+  src: local('LINESeedSansTH_A_Rg'), url('./assets/font/LINE_Seed_Sans_TH_V1.003/App/OTF/LINESeedSansTH_A_Rg.otf') format('opentype');
+  /* You can include additional font formats like woff, ttf, etc. for better browser compatibility */
+}
