@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-
 import { IconButton, Typography } from "components/core";
 import { GITHUB_URL } from "constants/links";
 import GithubIcon from "icons/GithubIcon";
 import { Section } from "shared/Section";
+import fire from "assets/models/fire.glb?url";
 import Scene from "src/3D/scene";
 
 export const DefaultAboutMeSection = () => {
@@ -32,7 +32,7 @@ export const DefaultAboutMeSection = () => {
         </div>
       </Section>
       <div className="p-5 hidden md:block ">
-        <Scene glbSource="src/assets/models/fire.glb"></Scene>
+        <Scene glbSource={fire}></Scene>
       </div>
     </div>
   );
