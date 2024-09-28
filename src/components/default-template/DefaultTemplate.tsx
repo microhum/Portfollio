@@ -12,7 +12,7 @@ export const DefaultTemplate = () => {
       <div className="flex flex-col max-w-[1240px] w-full mx-auto p-[30px] ">
         <div />
         <DefaultAboutMeSection />
-        <DefaultSkillsSection />
+        {/* <DefaultSkillsSection /> */}
         <DefaultProjectsSection />
         <DefaultContactSection />
       </div>
