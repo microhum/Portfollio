@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import FireEffect from "assets/effect/loop-of-smoke-fire-sparks-rising-up-particle-free-video (1).jpg?url";
 import { skills } from "constants/skills";
 import { Section } from "shared/Section";
 
@@ -8,7 +8,7 @@ export const DefaultSkillsSection = () => {
     <div>
       <img
         className="mask_gradient left-0 mix-blend-screen absolute saturate-150 w-screen h-[40%] animate-pulse"
-        src="src/assets/effect/loop-of-smoke-fire-sparks-rising-up-particle-free-video (1).jpg"
+        src={FireEffect}
         alt=""
       />
       <Section id="skills" headingText="Skills">
