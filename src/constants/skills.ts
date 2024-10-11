@@ -10,6 +10,8 @@ import pythonIcon from "assets/icons/python.svg";
 import tensorflowIcon from "assets/icons/tensorflow.svg";
 import pytorchIcon from "assets/icons/pytorch.svg";
 import djangoIcon from "assets/icons/django.svg";
+import dockerIcon from "src/assets/icons/docker.svg";
+import ThumbsUp from "src/assets/icons/thumbs-up-sign.svg";
 
 type Skill = {
   src: string;
@@ -28,21 +30,6 @@ export const skills: {
       text: "React.js"
     },
     {
-      src: htmlIcon,
-      website: "",
-      text: "HTML"
-    },
-    {
-      src: cssIcon,
-      website: "",
-      text: "CSS"
-    },
-    {
-      src: jsIcon,
-      website: "",
-      text: "JavaScript"
-    },
-    {
       src: typescriptIcon,
       website: "https://www.typescriptlang.org",
       text: "TypeScript"
@@ -53,29 +40,19 @@ export const skills: {
       text: "Tailwind CSS"
     },
     {
-      src: viteIcon,
-      website: "https://vitejs.dev",
-      text: "Vite"
-    },
-    {
       src: pythonIcon,
       website: "",
       text: "Python"
     },
     {
-      src: tensorflowIcon,
+      src: dockerIcon,
       website: "",
-      text: "Tensorflow"
+      text: "Docker Container"
     },
     {
       src: pytorchIcon,
       website: "",
       text: "Pytorch"
-    },
-    {
-      src: djangoIcon,
-      website: "",
-      text: "Django"
     }
   ],
   wantToLearn: [
@@ -88,6 +65,11 @@ export const skills: {
       src: svelteIcon,
       website: "https://svelte.dev",
       text: "Svelte"
+    },
+    {
+      src: ThumbsUp,
+      website: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      text: "Secret"
     }
   ]
 };

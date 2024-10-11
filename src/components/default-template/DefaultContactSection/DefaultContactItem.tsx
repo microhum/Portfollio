@@ -21,10 +21,10 @@ export const DefaultContactItem = ({
   onClick
 }: DefaultContactItemProps) => {
   return (
-    <div className="animate-hidden flex gap-[30px] sm:gap-[40px]">
-      <div className="flex [&>svg]:h-[40px] [&>svg]:w-[40px] [&>svg]:text-color2/60">{icon}</div>
-      <div className="flex flex-col gap-[20px]">
-        <Typography weight="medium" className="text-xl sm:text-2xl">
+    <div className="flex gap-[15px] sm:gap-[20px]">
+      <div className="flex [&>svg]:h-[20px] [&>svg]:w-[20px] [&>svg]:text-color2/60">{icon}</div>
+      <div className="flex flex-col gap-[10px]">
+        <Typography weight="medium" className="text-lg sm:text-xl">
           {title}
         </Typography>
         {text && <Typography className="text-color2 text-m sm:text-l">{text}</Typography>}

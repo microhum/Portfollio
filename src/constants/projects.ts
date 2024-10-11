@@ -4,6 +4,7 @@ import CurrentPortfolioUrl from "assets/projects/current-portfolio.jpg?url";
 import MyStrokeUrl from "assets/projects/MyStroke.jpg?url";
 import AccilaNewsAIUrl from "assets/projects/AccilaNewsAI.jpg?url";
 import BraincodeCoverUrl from "assets/projects/BraincodeCover.jpg?url";
+import ThaiVecFontCoverUrl from "src/assets/projects/thaivecfont_thumbnail.jpg?url";
 import ReactIcon from "icons/ReactIcon";
 import TailwindIcon from "icons/TailwindIcon";
 import TypescriptIcon from "icons/TypescriptIcon";
@@ -71,6 +72,15 @@ const fastapiTech: ProjectTech = { tech: "FastAPI", icon: FastapiIcon };
 
 export const projects: Project[] = [
   {
+    title: "ThaiVecFont",
+    description: "Synthesize High-Quality Thai Vector Fonts",
+    image: ThaiVecFontCoverUrl,
+    url: "https://medium.com/@guntee12123/synthesize-high-quality-thai-vector-fonts-with-deepvecfont-v2-a123317e1910",
+    githubUrl: "https://github.com/microhum/ThaiVecFont",
+    techs: [pythonTech, jupyterTech, pytorchTech, fastapiTech, dockerTech],
+    isPinned: true
+  },
+  {
     title: "MyStroke",
     description: "Tired of Stroke?. Try MyStroke.",
     image: MyStrokeUrl,
@@ -87,7 +97,7 @@ export const projects: Project[] = [
       firebaseTech,
       dockerTech
     ],
-    isPinned: true
+    isPinned: false
   },
   {
     title: "AccilaNews.AI",
@@ -97,7 +107,7 @@ export const projects: Project[] = [
     url: "https://github.com/AeraX-Valley",
     githubUrl: "https://github.com/AeraX-Valley",
     techs: [reactTech, typeScriptTech, viteTech, pythonTech, tensorflowTech, djangoTech],
-    isPinned: true
+    isPinned: false
   },
   {
     title: "Distance Learning EEG Classification",
@@ -105,14 +115,6 @@ export const projects: Project[] = [
     image: BraincodeCoverUrl,
     url: "https://medium.com/@guntee12123/%E0%B8%A1%E0%B8%B2%E0%B8%97%E0%B8%B3%E0%B8%99%E0%B8%B2%E0%B8%A2%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B8%AD%E0%B8%AD%E0%B8%99%E0%B9%84%E0%B8%A5%E0%B8%99%E0%B9%8C%E0%B8%88%E0%B8%B2%E0%B8%81%E0%B8%84%E0%B8%A5%E0%B8%B7%E0%B9%88%E0%B8%99%E0%B8%AA%E0%B8%A1%E0%B8%AD%E0%B8%87-eeg-%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B9%80%E0%B8%96%E0%B8%AD%E0%B8%B0-distance-learning-eeg-classification-26231783474b",
     techs: [jupyterTech, pythonTech, pytorchTech],
-    isPinned: true
-  },
-  {
-    title: "My Portfolio",
-    description: "My Portfolio",
-    image: CurrentPortfolioUrl,
-    url: "",
-    githubUrl: "https://github.com/microhum/Portfollio",
-    techs: [reactTech, typeScriptTech]
+    isPinned: false
   }
 ];

@@ -18,7 +18,7 @@ export const ProjectItem = ({
   isPinned
 }: Project) => {
   return (
-    <div className="group animate-hidden relative flex flex-col gap-[20px] pb-[10px]">
+    <div className="group relative flex flex-col gap-[20px] pb-[10px]">
       {isPinned && (
         <div className="absolute top-[-8px] left-[-8px] text-primary z-5 pointer-events-none [&>svg]:w-[24px] [&>svg]:h-[24px] [&>svg]:rotate-[270deg]">
           <PinIcon />

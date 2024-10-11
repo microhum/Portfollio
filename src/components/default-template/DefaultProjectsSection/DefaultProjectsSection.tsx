@@ -6,7 +6,7 @@ import { ProjectItem } from "./ProjectItem";
 export const DefaultProjectsSection = () => {
   return (
     <Section id="projects" headingText="Projects">
-      <div className="grid grid-cols-1 gap-[30px] w-full mx-auto sm:grid-cols-3">
+      <div className="grid grid-cols-1 gap-[30px] w-full mx-auto sm:grid-cols-2 md:grid-cols-3">
         {projects.map((project) => (
           <ProjectItem key={project.title + project.url} {...project} />
         ))}

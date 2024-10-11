@@ -10,13 +10,13 @@ interface CustomLinkProps extends ComponentPropsWithoutRef<"a"> {
 export const CustomLink = ({ children, href, icon, ...props }: CustomLinkProps) => {
   return (
     <Link
-      className="relative flex align-center text-primary font-semibold text-l duration-200 hover:opacity-70 active:brightness-125 focus-visible:shadow-[0px_1px_0px_theme('colors.current')] sm:text-xl"
+      className="relative flex align-center text-primary font-semibold text-l duration-200 hover:opacity-70 active:brightness-125 focus-visible:shadow-[0px_1px_0px_theme('colors.current')] sm:text-[12px]"
       to={href}
       {...props}
     >
       {icon &&
         cloneElement(icon, {
-          className: "self-center w-[22px] h-[22px] mr-[10px]"
+          className: "self-center w-[15px] h-[15px] mr-[5px]"
         })}
       {children}
     </Link>

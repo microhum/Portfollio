@@ -11,7 +11,7 @@ import { DefaultContactItem } from "./DefaultContactItem";
 export const DefaultContactSection = () => {
   return (
     <Section id="contact" headingText="Contact">
-      <div className="flex flex-col w-full gap-[60px] mt-[7px]">
+      <div className="border border-white p-7 rounded-xl flex flex-col w-full justify-center h-full gap-[30px] ">
         <CopyToClipboard text={EMAIL_ADDRESS}>
           <DefaultContactItem
             icon={<MailIcon />}
